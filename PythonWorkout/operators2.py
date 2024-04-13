@@ -37,3 +37,24 @@ def loop_value():
 
 
 l=loop_value()
+def loop_value():
+    user_value = int(input("Enter a value (1-100): "))
+    if 1 <= user_value <= 100:
+        for i in range(1, user_value):  # this line of code i have just entered the user_value not + 1 , or 2 or any other
+            print(i)
+    else:
+        print("Please enter a value between 1 and 100.")
+
+loop_value()
+
+
+
+def loop_value2():
+    user_value2 = int(input("Enter a number :"))
+    for i in range(1,user_value2):
+        print(i)
+
+
+loop_value2()
+
+

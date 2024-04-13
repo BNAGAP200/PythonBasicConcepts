@@ -75,12 +75,15 @@ x = ["apple", "banana"]
 y = ["apple", "banana"]
 z = x
 print(x is z)
+
 #SyntaxError: multiple statements found while compiling a single statement
 
 #performs the execution based on the location
 x=[1,2]
 y=[1,2]
 z=[2,1]
+print("The extends",x.extend(y))
+print(x)
 print(x is y)
 print(x is z)
 #Same content but different memory locator return false
